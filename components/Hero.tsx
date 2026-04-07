@@ -112,9 +112,9 @@ export default function Hero() {
         {/* Social proof */}
         <div className="mt-14 flex items-center justify-center gap-8">
           {[
-            { value: "1,200+", label: "Cleans Done" },
+            { value: "100+", label: "Cleans Done" },
             { value: "98%", label: "Satisfaction" },
-            { value: "8 Yrs", label: "Experience" },
+            { value: "2+Yrs", label: "Experience" },
           ].map((s) => (
             <div key={s.label} className="text-center">
               <p className="font-display text-2xl sm:text-3xl font-semibold text-gold">
