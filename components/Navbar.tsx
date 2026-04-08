@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { Menu, X, Sparkles } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import { NAV_ITEMS } from "@/lib/data";
 import { cn } from "@/lib/utils";
 
@@ -31,23 +31,26 @@ export default function Navbar() {
       )}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between">
-        {/* Logo */}
+        
+        {/* ✅ Logo + Brand */}
         <a
           href="#"
-          className="flex items-center gap-2 group"
-          aria-label="PureEstate Cleaning Home"
+          className="flex items-center gap-3"
+          aria-label="AkashSan Home"
         >
-          <div className="w-8 h-8 rounded-full bg-gold-gradient flex items-center justify-center shrink-0">
-            <Sparkles className="w-4 h-4 text-obsidian-950" />
-          </div>
-          <span className="font-display text-xl font-semibold tracking-wide">
+          <img
+            src="/images/logo.jpeg"
+            alt="AkashSan Logo"
+            className="w-10 h-10 object-cover rounded-full border border-gold/30"
+          />
+          <span className="font-display text-xl font-semibold tracking-wide leading-none">
             <span className="text-gold">Akash</span>
             <span className="text-obsidian-50">San</span>
           </span>
         </a>
 
         {/* Desktop Nav */}
-        <nav className="hidden md:flex items-center gap-8" aria-label="Main navigation">
+        <nav className="hidden md:flex items-center gap-8">
           {NAV_ITEMS.map((item) => (
             <button
               key={item.href}
@@ -70,7 +73,6 @@ export default function Navbar() {
           className="md:hidden text-obsidian-50 hover:text-gold transition-colors"
           onClick={() => setMenuOpen((v) => !v)}
           aria-label="Toggle menu"
-          aria-expanded={menuOpen}
         >
           {menuOpen ? <X size={24} /> : <Menu size={24} />}
         </button>

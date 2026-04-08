@@ -17,7 +17,7 @@ const outfit = Outfit({
 });
 
 export const metadata: Metadata = {
-  title: "PureEstate Cleaning | Premium Cleaning Services",
+  title: "AkashSan Cleaning | Premium Cleaning Services",
   description:
     "Professional carpet washing, tile floor deep cleaning, chair cleaning, flat cleaning, and indoor glass cleaning in Delhi NCR. Book your premium clean today.",
   keywords: [
@@ -29,9 +29,9 @@ export const metadata: Metadata = {
     "indoor glass cleaning",
     "professional cleaning",
   ],
-  authors: [{ name: "PureEstate Cleaning" }],
+  authors: [{ name: "AkashSan Cleaning" }],
   openGraph: {
-    title: "PureEstate Cleaning | Premium Cleaning Services",
+    title: "AkashSan Cleaning | Premium Cleaning Services",
     description:
       "Expertly trained professionals delivering spotless results for homes and offices across Delhi NCR.",
     type: "website",
