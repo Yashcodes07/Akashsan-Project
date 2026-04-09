@@ -107,7 +107,7 @@ export default function Footer() {
               {[
                 { icon: Phone, text: "+91 9205707690" },
                 { icon: Phone, text: "+91 7011672166" },
-                { icon: Mail, text: "akashsan@gmail.com" },
+                { icon: Mail, text: "Akashsan305@gmail.com" },
                 { icon: MapPin, text: "Delhi, India" },
               ].map(({ icon: Icon, text }) => (
                 <li key={text} className="flex items-center gap-3">
