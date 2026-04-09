@@ -305,20 +305,20 @@ const CONTACTS = [
   {
     id: 2,
     name: "Rishabh",
-    whatsapp: "919315886025",
+    whatsapp: "917668646807",
     photo: "/images/Rishabh.webp",
   },
   {
     id: 3,
     name: "Ankush",
-    whatsapp: "919205707690",
+    whatsapp: "919315886025", // replace with real
     photo: "/images/ankush.webp",
   },
   {
     id: 4,
-    name: "Amit",
-    whatsapp: "919999999999", // replace with real
-    photo: "/images/praval.jpg", // replace if needed
+    name: "Aditya",
+    whatsapp: "919205707690", // replace with real
+    photo: "/images/aditya.webp", // replace if needed
   },
 ];
 
@@ -361,9 +361,15 @@ export default function Contact() {
                 href: "tel:+917011672166",
               },
               {
+                icon: Phone,
+                label: "General Line",
+                value: "+91 76686 46807",
+                href: "tel:+917668646807",
+              },
+              {
                 icon: MapPin,
                 label: "Location",
-                value: "Delhi NCR, India",
+                value: "Delhi , India",
                 href: "#",
               },
             ].map(({ icon: Icon, label, value, href }) => (

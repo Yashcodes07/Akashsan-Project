@@ -73,12 +73,25 @@ export const SERVICES: Service[] = [
       "High-reach access",
     ],
   },
+  {
+    id: "Office-cleaning",
+    title: "Office Cleaning",
+    description:
+      "Comprehensive office cleaning services that ensure a hygienic and productive work environment.",
+    icon: "Building2",
+    features: [
+      "General office cleaning",
+      "Office spaces",
+      "Interior windows",
+      "Streak-free finish",
+    ],
+  },
 ];
 
 export const STATS: Stat[] = [
-  { value: "1,200+", label: "Projects Completed" },
+  { value: "100+", label: "Projects Completed" },
   { value: "98%", label: "Client Satisfaction" },
-  { value: "8+", label: "Years Experience" },
+  { value: "2+", label: "Years Experience" },
   { value: "24/7", label: "Support Available" },
 ];
 

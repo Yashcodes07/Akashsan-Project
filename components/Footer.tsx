@@ -124,7 +124,7 @@ export default function Footer() {
         {/* Bottom bar */}
         <div className="border-t border-gold/10 pt-6 flex flex-col sm:flex-row items-center justify-between gap-3">
           <p className="font-body text-xs text-obsidian-100/30">
-            © {year} PureEstate Cleaning. All rights reserved.
+            © {year} AkashSan Cleaning. All rights reserved.
           </p>
           <p className="font-body text-xs text-obsidian-100/25">
             Privacy Policy · Terms of Service
