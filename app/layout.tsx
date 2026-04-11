@@ -50,7 +50,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "AkashSan Cleaning | Premium Cleaning Services",
     description:
-      "Professional cleaning services across Delhi NCR. Book today!",
+      "Professional cleaning services across Delhi. Book today!",
   },
   robots: {
     index: true,
